@@ -1,5 +1,5 @@
 const x = document.forms['frm1'];
-//console.dir(x[0].value);
+console.dir(x);
 const len = x.length;
 
 let text = " ";
