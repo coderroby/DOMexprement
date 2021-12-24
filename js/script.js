@@ -1,11 +1,18 @@
 const format = /^[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]*$/;
-function formValidation(){
+function formValidation() {
     const formData = document.forms['myForm'];
     console.dir(formData);
     //console.log(formData[0].value);
     const input1Value = formData.elements[0].value;
-    if(isNaN(input1Value) &&  typeof input1Value === 'string' && format.test(input1Value) == false ) console.log(input1Value);
+    if (isNaN(input1Value) && typeof input1Value === 'string' && format.test(input1Value) == false) console.log(input1Value);
     else alert('Please input String value');
 
-    return true;
+    return false;
+}
+function styling() {
+    const demoID = document.querySelector("#demo");
+    setTimeout(() => {
+        demoID.style.fontSize = "24px";
+        demoID.style.color = "blue";
+    }, 3000);
 }
