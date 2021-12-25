@@ -34,3 +34,4 @@ function changeInnerText (which){
     console.log(which);
     which.innerHTML = 'Hi'
 } 
+console.log("trieng to typing practice");
