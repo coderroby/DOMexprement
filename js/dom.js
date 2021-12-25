@@ -29,3 +29,8 @@ function changeMe() {
         }
     }
 }
+
+function changeInnerText (which){
+    console.log(which);
+    which.innerHTML = 'Hi'
+} 
