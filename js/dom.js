@@ -43,5 +43,5 @@ const btn2 = document.getElementById("btn2");
 btn2.addEventListener('mouseover', btnClick);
 
 function btnClick(){
-    console.log("hello");
+    console.log("Hi");
 }
