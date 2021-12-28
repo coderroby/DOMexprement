@@ -35,3 +35,13 @@ function changeInnerText (which){
     which.innerHTML = 'Hi'
 } 
 console.log("trieng to typing practice");
+
+
+const btn = document.getElementById("btn1");
+btn.addEventListener('click', btnClick);
+const btn2 = document.getElementById("btn2");
+btn2.addEventListener('mouseover', btnClick);
+
+function btnClick(){
+    console.log("hello");
+}
